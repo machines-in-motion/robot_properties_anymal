@@ -25,7 +25,7 @@ Collection of configuration files for Atlas robot.
   pip3 install .
   ```
 
-3. Install robot_properties_atlas:
+3. Install robot_properties_anymal:
 
 ### Examples
 
