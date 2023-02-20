@@ -43,9 +43,9 @@ resources = find_resources(package_name)
 
 # Install nodes and demos.
 scripts_list = []
-for (root, _, files) in walk(path.join("demos")):
-    for demo_file in files:
-        scripts_list.append(path.join(root, demo_file))
+# for (root, _, files) in walk(path.join("demos")):
+#     for demo_file in files:
+#         scripts_list.append(path.join(root, demo_file))
 
 # Final setup.
 setup(
