@@ -6,7 +6,6 @@ Home-page: https://github.com/open-dynamic-robot-initiative/robot_properties_sol
 Maintainer: mnaveau
 Maintainer-email: mnaveau@tuebingen.mpg.de
 License: BSD-3-clause
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: BSD-3-clause
 Classifier: Operating System :: OS Independent
@@ -40,7 +39,7 @@ Collection of configuration files for Atlas robot.
   pip3 install .
   ```
 
-3. Install robot_properties_atlas:
+3. Install robot_properties_anymal:
 
 ### Examples
 
@@ -61,5 +60,3 @@ robot = env.add_robot(Solo12Robot)
 Copyright(c) 2018-2021 Max Planck Gesellschaft, New York University
 
 BSD 3-Clause License
-
-

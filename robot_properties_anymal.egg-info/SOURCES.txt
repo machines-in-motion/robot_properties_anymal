@@ -1,11 +1,9 @@
 setup.cfg
 setup.py
 demos/meshcat.py
-demos/__pycache__/meshcat.cpython-38.pyc
 robot_properties_anymal.egg-info/PKG-INFO
 robot_properties_anymal.egg-info/SOURCES.txt
 robot_properties_anymal.egg-info/dependency_links.txt
-robot_properties_anymal.egg-info/entry_points.txt
 robot_properties_anymal.egg-info/requires.txt
 robot_properties_anymal.egg-info/top_level.txt
 robot_properties_anymal.egg-info/zip-safe
