@@ -6,12 +6,12 @@ from setuptools import setup, find_packages
 
 
 def print_error(*args, **kwargs):
-    """ Print in stderr. """
+    """Print in stderr."""
     print(*args, file=sys.stderr, **kwargs)
 
 
 def find_resources(package_name):
-    """ Find the relative path of files under the resource folder. """
+    """Find the relative path of files under the resource folder."""
     resources = []
     package_dir = path.join("src", package_name)
     resources_dir = path.join(package_dir, package_name)
@@ -33,9 +33,7 @@ def find_resources(package_name):
 package_name = "robot_properties_anymal"
 
 # Long description from the readme.
-with open(
-    path.join(path.dirname(path.realpath(__file__)), "readme.md"), "r"
-) as fh:
+with open(path.join(path.dirname(path.realpath(__file__)), "readme.md"), "r") as fh:
     long_description = fh.read()
 
 # Find the resource files.
@@ -43,9 +41,9 @@ resources = find_resources(package_name)
 
 # Install nodes and demos.
 scripts_list = []
-# for (root, _, files) in walk(path.join("demos")):
-#     for demo_file in files:
-#         scripts_list.append(path.join(root, demo_file))
+for (root, _, files) in walk(path.join("demos")):
+    for demo_file in files:
+        scripts_list.append(path.join(root, demo_file))
 
 # Final setup.
 setup(
